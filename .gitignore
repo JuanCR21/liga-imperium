@@ -1,0 +1,23 @@
+# ==============================
+# ARCHIVOS PRIVADOS DE LA LIGA
+# ==============================
+
+# Panel de administración local
+admin.html
+
+# Datos privados de la liga
+data.js
+
+# ==============================
+# SECRETOS / CONFIGURACIONES
+# ==============================
+
+.env
+.env.*
+
+# ==============================
+# ARCHIVOS LOCALES DEL SISTEMA
+# ==============================
+
+.DS_Store
+Thumbs.db
