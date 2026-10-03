@@ -5,8 +5,8 @@
    sin conexión con lo último que se vio.
    No hace falta tocar nada aquí.
    ============================================================ */
-const VERSION = 'liga-imperium-v1';
-const NUCLEO = ['./', 'index.html', 'calc.js', 'data.js', 'manifest.json', 'icon-192.png'];
+const VERSION = 'liga-imperium-v2';
+const NUCLEO = ['./', 'index.html', 'calc.js', 'loader.js', 'manifest.json', 'icon-192.png'];
 
 self.addEventListener('install', (e) => {
   e.waitUntil(

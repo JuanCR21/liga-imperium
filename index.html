@@ -904,10 +904,10 @@
   </a>
 </footer>
 
-<script src="data.js"></script>
+<script src="loader.js"></script>
 <script src="calc.js"></script>
 <script>
-(function(){
+LIGA_READY.then(() => {
   /* ---------------- Menú (no depende de la temporada activa) ---------------- */
   const menu = document.getElementById('menu');
   const btnMenu = document.getElementById('btnMenu');
@@ -1852,7 +1852,7 @@
   }
 
   cargarTemporada(LIGA_DATA.currentSeason);
-})();
+});
 </script>
 </body>
 </html>

@@ -4,6 +4,7 @@
 
 # Panel de administración local
 admin.html
+admin-config.js
 
 # Datos privados de la liga
 data.js
