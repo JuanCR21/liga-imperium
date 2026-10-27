@@ -32,8 +32,8 @@ window.LIGA_READY = fetch(`${LIGA_API_URL}/liga`, {
         text-align:center;
       ">
         <div>
-          <h1>No se han podido cargar los datos de la liga</h1>
-          <p>Comprueba tu conexión e inténtalo de nuevo.</p>
+          <h1>Liga temporalmente en mantenimiento</h1>
+          <p>Estamos realizando algunos ajustes. El acceso estará disponible de nuevo muy pronto.</p>
         </div>
       </main>
     `;
